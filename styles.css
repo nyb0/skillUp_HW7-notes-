@@ -1,0 +1,44 @@
+.root{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.stick {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+    box-shadow: 1px 2px 5px black;
+    color: white;
+    font-weight: 800;
+}
+p{
+    margin: 0;
+}
+
+.edit-stick {
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.edit-stick>textarea {
+    width: 100%;
+    margin: 0px;
+    height: calc(100% - 30px);
+    background-color: transparent;
+}
+
+.edit-stick>.stick-save {
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+
+.edit-stick>.stick-cancel {
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
