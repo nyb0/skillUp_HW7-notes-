@@ -112,7 +112,7 @@ function saveEditText(event) {
     var editBlock = button.parentNode;
     var textBlock = editBlock.previousSibling.previousSibling;
     
-    editedText = editBlock.childNodes[1].value;
+    var editedText = editBlock.childNodes[1].value;
     
     console.log(editedText);
     console.log(textBlock.style);
